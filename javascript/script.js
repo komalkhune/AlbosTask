@@ -69,7 +69,7 @@ ScrollTrigger.create({
     start: "top top",
     end: "bottom bottom",
     onUpdate: (self) => {
-        data.timeScale(self.direction); 
+        data.timeScale(-self.direction); 
     }
 });
 
