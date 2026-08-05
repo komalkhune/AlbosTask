@@ -58,7 +58,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const data = gsap.to(".horiscroll", {
     x: "-50%",
-    x: "50%",
     duration: 20,
     ease: "none",
     repeat: -1
