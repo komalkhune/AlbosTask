@@ -122,23 +122,24 @@
 
 
 .imgscroll{
-    overflow: hidden;
     width: 100%;
-    background-color: rgb(211, 206, 206);
-    padding: 20px 0;
-    /* z-index: 999; */
+    overflow: hidden;
+    padding: 40px 0;
+    background: #fff; /* optional */
 }
 
 .horiscroll{
     display: flex;
-    gap: 80px;
+    align-items: center;
+    gap: 80px;              /* Space between logos */
     width: max-content;
-    z-index: 999;
 }
 
 .horiscroll img{
-    /* width: auto; */
-    height: 40px;
+    width: 180px;           /* Same width for all */
+    height: 80px;           /* Same height for all */
+    object-fit: contain;    /* Keep original logo proportions */
+    flex-shrink: 0;         /* Prevent shrinking */
 }
 
 
