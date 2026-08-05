@@ -132,7 +132,7 @@
 .horiscroll{
     display: flex;
     gap: 80px;
-    width: max-content;
+    width:60px;
     z-index: 999;
 }
 
