@@ -54,24 +54,24 @@ tl.to(".btnleft", {
 
 
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-const data = gsap.to(".horiscroll", {
-    x: "-50%",
-    duration: 20,
-    ease: "none",
-    repeat: -1
-});
+// const data = gsap.to(".horiscroll", {
+//     x: "-50%",
+//     duration: 20,
+//     ease: "none",
+//     repeat: -1
+// });
 
 // Change direction based on scroll
-ScrollTrigger.create({
-    trigger: "body",
-    start: "top top",
-    end: "bottom bottom",
-    onUpdate: (self) => {
-        data.timeScale(self.direction); // 1 = right, -1 = left
-    }
-});
+// ScrollTrigger.create({
+//     trigger: "body",
+//     start: "top top",
+//     end: "bottom bottom",
+//     onUpdate: (self) => {
+//         data.timeScale(self.direction); 
+//     }
+// });
 
 
 
