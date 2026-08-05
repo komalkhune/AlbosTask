@@ -124,8 +124,8 @@
 .imgscroll{
     width: 100%;
     overflow: hidden;
-    padding: 40px 0;
-    background: #fff; /* optional */
+    padding: 30px 0;
+    background: #d8d2d2; /* optional */
 }
 
 .horiscroll{
@@ -136,8 +136,8 @@
 }
 
 .horiscroll img{
-    width: 180px;           /* Same width for all */
-    height: 80px;           /* Same height for all */
+    width: 140px;           /* Same width for all */
+    height: 60px;           /* Same height for all */
     object-fit: contain;    /* Keep original logo proportions */
     flex-shrink: 0;         /* Prevent shrinking */
 }
